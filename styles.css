@@ -1,0 +1,116 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ac2f82; /* Light gray background */
+    color: #2975a8; /* Dark gray text for readability */
+}
+
+/* Header Styling */
+header {
+    background-color: #0cb135; /* Green header */
+    color: white; /* White text in header */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #2975a8; /* Blue bottom border */
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid #2975a8; /* Bottom border */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b; /* Yellow color on hover */
+}
+
+/* Main Content Section */
+main {
+    padding: 20px;
+}
+
+/* Intro Section */
+.intro {
+    background-color: #ffffff; /* White background for intro */
+    padding: 30px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: center;
+    border: 2px solid #4CAF50; /* Green border */
+}
+
+.intro h1 {
+    color: #4CAF50; /* Green for main title */
+}
+
+.intro p {
+    color: #666; /* Lighter gray for text */
+}
+
+/* Bio-data and Resume Sections */
+.bio, .resume {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #4CAF50; /* Green border */
+}
+
+h2 {
+    color: #4CAF50; /* Green for section titles */
+    border-bottom: 2px solid #4CAF50; /* Green underline */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text in footer */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 3px solid #2975a8; /* Blue top border */
+}
+
+/* Add some spacing for smaller devices */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .intro, .bio, .resume {
+        padding: 15px;
+        border: 1px solid #4CAF50; /* Thinner green border */
+    }
+}
